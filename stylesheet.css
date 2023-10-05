@@ -1,0 +1,262 @@
+body{
+    background: #190019;  /* fallback for old browsers */
+    background: (to right, #190019, #2B124C,#522B5B,#854F6C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#190019, #2B124C,#522B5B,#854F6C ); 
+ 
+ }
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ 
+ .hero{
+    
+    width: 100%;
+ 
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+ 
+ .logo{
+    text-decoration: none;
+    color:rgb(214, 216, 200);
+ }
+ .logo a{
+    text-decoration: none;
+ }
+    @keyframes animate{
+       from{padding-right: 50px;
+            opacity: 0.3;   
+       }
+       to{padding-left: 10px;
+          opacity: 1.0;
+       }
+    }
+    
+    h2{
+       animation-name: animate;
+       animation-duration: 1s;
+       animation-timing-function: linear;
+       animation-delay: 0.25s;
+       animation-iteration-count: 1;
+       animation-direction: alternate;
+    }
+    
+  
+ 
+ 
+ nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+ }
+ 
+ nav ul li a{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+ }
+ 
+ nav ul li a:hover{
+    color:rgb(165, 85, 227);
+    transition: 0.3s;
+ }
+ 
+ /* .name{ 
+    color: rgb(229, 240, 236);
+    text-align: center;
+    text-decoration: none;
+    padding-top: 3rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 3rem;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    justify-content: space-around;
+ } */
+
+ .name img{
+    
+    margin-right: 50px;
+ }
+ 
+ 
+ @keyframes animate{
+    from{padding-right: 50px;
+         opacity: 0.3;   
+    }
+    to{padding-left: 10px;
+       opacity: 1.0;
+    }
+ }
+ 
+ h1,h3{
+    animation-name: animate;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 0.25s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+ }
+ .fa {
+   border-radius: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
+  footer {
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+    background-color: white;
+
+
+
+  }
+  body{
+    background: #190019;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #190019, #2B124C,#522B5B,#854F6C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,#190019, #2B124C,#522B5B,#854F6C ); 
+
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+.hero{
+
+width: 100%;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 40px;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.logo{
+text-decoration: none;
+color:rgb(214, 216, 200);
+}
+.logo a{
+text-decoration: none;
+}
+@keyframes animate{
+from{padding-right: 50px;
+    opacity: 0.3;   
+}
+to{padding-left: 10px;
+  opacity: 1.0;
+}
+}
+
+h2{
+animation-name: animate;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-delay: 0.25s;
+animation-iteration-count: 1;
+animation-direction: alternate;
+}
+
+
+
+
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+}
+
+nav ul li a{
+color: white;
+text-decoration: underline;
+font-weight: bold;
+}
+
+nav ul li a:hover{
+color:rgb(165, 85, 227);
+transition: 0.3s;
+}
+.name{ 
+   display: flex;
+color: rgb(229, 240, 236);
+text-align: center;
+align-items: center;
+text-decoration: none;
+padding-top: 3rem;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 3rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: xx-large;
+justify-content: space-around;
+}
+
+#h1{
+color: beige;
+padding-left: 50px;
+padding-top: 70px;
+padding-bottom: 70px;
+padding-right: 70px;
+font-size: xx-large;
+text-align: center;
+text-decoration: underline;
+}
+.link1{
+color:beige;
+text-align: center;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.link2{
+color:beige;
+text-align: center;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.link3{
+color: beige;
+text-align: center;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+}

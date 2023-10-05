@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <title>Story</title>
+    <style>
+      body {
+        background: #190019; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #190019,
+          #2b124c,
+          #522b5b,
+          #854f6c
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #190019,
+          #2b124c,
+          #522b5b,
+          #854f6c
+        );
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      .hero {
+        width: 100%;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .logo {
+        text-decoration: none;
+        color: rgb(214, 216, 200);
+      }
+      .logo a {
+        text-decoration: none;
+      }
+      @keyframes animate {
+        from {
+          padding-right: 50px;
+          opacity: 0.3;
+        }
+        to {
+          padding-left: 10px;
+          opacity: 1;
+        }
+      }
+
+      h2 {
+        animation-name: animate;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-delay: 0.25s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+      }
+
+      nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        color: rgb(165, 85, 227);
+        transition: 0.3s;
+      }
+
+      .story {
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 70px;
+        padding-right: 70px;
+        color: rgb(214, 216, 200);
+        font-size: xx-large;
+      }
+
+      h1 {
+        text-decoration: underline;
+      }
+
+      p {
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      @keyframes animate {
+        from {
+          padding-right: 50px;
+          opacity: 0.3;
+        }
+        to {
+          padding-left: 10px;
+          opacity: 1;
+        }
+      }
+
+      h1 {
+        animation-name: animate;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-delay: 0.25s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <ul>
+          <li>
+            <h1 class="logo"><a href="/index.html">TAHIRA</a></h1>
+          </li>
+        </ul>
+
+        <ul>
+          <li><a href="/About.html">About</a></li>
+          <li><a href="/Story.html">Story</a></li>
+          <li><a href="/peer's links.htm">Peers Links</a></li>
+          <li><a href="/Resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="story">
+      <h1>MY STORY</h1>
+      <br />
+      <p>
+        I've always been fascinated by technology,I'm working as an entry level
+        QA tester who is passionate about ensuring the quality and functionality
+        of software products.I started this job in February 2023 as a first step
+        in IT, I really enjoying my work,now I know what I need to learn, It's a
+        programming language,One day I got a message from IRC,<br />
+        They informed me about REFCODE, I immediately applied and they accepted
+        my application that was my first step towards coding, from the first day
+        I'm enjoying learning Coding, I don't want to stop my journey with
+        Refcode until I will be master in coding, My aim is to learn Python and
+        I will definetly learn that language also one day.
+      </p>
+    </div>
+    <footer>
+      <a
+        href="https://www.linkedin.com/in/tahira-a-820b8a236/"
+        target="blank"
+        class="fa fa-linkedin"
+      ></a>
+      <a href="https://github.com/Hira0989/Tahira" class="fa fa-github"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </footer>
+  </body>
+</html>
